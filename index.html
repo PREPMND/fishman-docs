@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Fishman Docs — Native Desktop API IDE Documentation</title>
+    <meta
+      name="description"
+      content="Official Fishman documentation. Install the open-source native desktop API IDE, use Backend Scanner, manage collections, and ship REST workflows. Built with Tauri v2 + React."
+    />
+    <meta
+      name="keywords"
+      content="Fishman, Fishman docs, API client, REST client, desktop API IDE, Tauri API client, Postman alternative, Backend Scanner, API collections"
+    />
+    <meta name="author" content="Fishman" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://nkrider7.github.io/fishman-docs/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fishman Docs" />
+    <meta property="og:title" content="Fishman Docs — Native Desktop API IDE Documentation" />
+    <meta
+      property="og:description"
+      content="Install Fishman, scan backends into collections, and build local-first API workflows. Official docs for the open-source Tauri + React API IDE."
+    />
+    <meta property="og:url" content="https://nkrider7.github.io/fishman-docs/" />
+    <meta property="og:image" content="https://nkrider7.github.io/fishman-docs/assets/logo.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fishman Docs — Native Desktop API IDE Documentation" />
+    <meta
+      name="twitter:description"
+      content="Official docs for Fishman: install, Backend Scanner, collections, CLI, and API reference."
+    />
+    <meta name="twitter:image" content="https://nkrider7.github.io/fishman-docs/assets/logo.png" />
+
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Fishman Docs",
+        "url": "https://nkrider7.github.io/fishman-docs/",
+        "description": "Official documentation for Fishman, the open-source native desktop API IDE.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Fishman",
+          "url": "https://github.com/nkrider7/fishman",
+          "logo": "https://nkrider7.github.io/fishman-docs/assets/logo.png"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Fishman",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "description": "Open-source native desktop API IDE and REST client with local-first collections and Backend Scanner.",
+        "url": "https://nkrider7.github.io/fishman",
+        "downloadUrl": "https://github.com/nkrider7/fishman/releases",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
+
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('fishman-theme')
+          if (t === 'light' || t === 'dark') {
+            document.documentElement.setAttribute('data-theme', t)
+          }
+        } catch (_) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

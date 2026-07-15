@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nkrider7.github.io/fishman-docs/sitemap.xml

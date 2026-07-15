@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fishman Docs</title>
+    <script>
+      // SPA fallback for GitHub Pages + BrowserRouter under /fishman-docs/
+      var path = location.pathname
+      var base = '/fishman-docs'
+      if (path.indexOf(base) === 0) {
+        var route = path.slice(base.length) || '/'
+        location.replace(base + '/?redirect=' + encodeURIComponent(route) + location.search + location.hash)
+      } else {
+        location.replace('/fishman-docs/')
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
