@@ -110,9 +110,9 @@ export function TopNav({ onOpenSearch, onOpenMobileNav, showMobileMenuButton }: 
             href={GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-[rgba(254,159,2,0.85)] px-3.5 text-sm font-semibold text-[rgba(254,159,2,0.95)] transition-colors hover:bg-primary-muted"
+            className="inline-flex h-9 items-center justify-center gap-2 rounded-md border border-[rgba(254,159,2,0.85)] px-3.5 text-sm font-semibold leading-none text-[rgba(254,159,2,0.95)] transition-colors hover:bg-primary-muted"
           >
-            <GitHubIcon className="size-4" />
+            <GitHubIcon className="size-3.5 shrink-0" />
             <span className="hidden sm:inline">GitHub</span>
           </a>
 
