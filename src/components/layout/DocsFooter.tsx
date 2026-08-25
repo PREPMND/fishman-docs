@@ -6,7 +6,7 @@ export function DocsFooter() {
   return (
     <footer className="mt-8 border-t border-border py-8 text-sm text-muted sm:mt-4">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <p>
+        <p className='flex items-center'>
           Fishman Docs ·{' '}
           <a
             href={GITHUB_URL}

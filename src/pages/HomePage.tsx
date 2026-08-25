@@ -177,10 +177,10 @@ export function HomePage() {
           <div className="hero-fade-up hero-delay-3 mt-8 flex flex-wrap items-center gap-3 sm:mt-9">
             <Link
               to="/getting-started"
-              className="inline-flex h-11 items-center gap-2 rounded-md bg-primary px-6 text-sm font-semibold text-on-primary transition-[background-color,transform] duration-150 hover:bg-primary-active active:scale-[0.98] motion-reduce:active:scale-100"
+              className="inline-flex h-11 items-center gap-2 rounded-md bg-primary px-6 text-sm font-semibold text-on-primary transition-[background-color,transform] duration-150 hover:bg-primary-active active:scale-[0.98] motion-reduce:active:scale-100 "
             >
-              Get started
-              <ArrowRight className="size-4" strokeWidth={2} aria-hidden />
+              <div className='dark:text-neutral-100 '>Get started</div>
+              <ArrowRight className="size-4 dark:text-neutral-100" strokeWidth={2} aria-hidden />
             </Link>
             <a
               href={GITHUB_URL}

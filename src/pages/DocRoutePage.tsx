@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from 'react'
+import { useEffect, useMemo, type ReactNode } from 'react'
 import { useParams } from 'react-router'
 import { AppShell } from '@/components/layout/AppShell'
 import { useSeo } from '@/hooks/useSeo'
@@ -92,21 +92,23 @@ export function DocRoutePage() {
   const { slug } = useParams()
   const doc = slug ? docs[slug] : undefined
   const path = slug ? `/${slug}` : '/'
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [slug])
   useSeo(
     doc
       ? {
-          title: doc.title,
-          description: doc.description,
-          path,
-          type: 'article',
-        }
+        title: doc.title,
+        description: doc.description,
+        path,
+        type: 'article',
+      }
       : {
-          title: 'Page not found',
-          description: 'This Fishman Docs page does not exist.',
-          path,
-          noIndex: true,
-        },
+        title: 'Page not found',
+        description: 'This Fishman Docs page does not exist.',
+        path,
+        noIndex: true,
+      },
   )
 
   const headings = useMemo(() => doc?.headings ?? [], [doc])

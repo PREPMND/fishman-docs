@@ -22,12 +22,13 @@ export function ChangelogPage() {
       </p>
       <ul>
         <li>
+          Product releases:{' '}
           <a
             href="https://github.com/nkrider7/fishman/releases"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/nkrider7/fishman/releases
+            Fishman releases on GitHub
           </a>
         </li>
         <li>
@@ -37,7 +38,7 @@ export function ChangelogPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            nkrider7.github.io/fishman
+            Fishman website
           </a>
         </li>
       </ul>

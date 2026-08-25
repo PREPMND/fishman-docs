@@ -88,7 +88,7 @@ export function SearchPalette({
               }
             }}
             placeholder="Search docs…"
-            className="h-12 w-full bg-transparent text-sm text-ink outline-none placeholder:text-muted"
+            className="h-12  w-full bg-transparent text-sm text-ink outline-none focus-visible:outline-none placeholder:text-muted"
             aria-label="Search documentation"
           />
           <Kbd>esc</Kbd>
