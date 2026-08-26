@@ -32,6 +32,12 @@ export const docsNavigation: NavItem[] = [
     section: 'Features',
   },
   {
+    title: 'History',
+    href: '/history',
+    description: 'View, search, and reuse previously sent API requests.',
+    section: 'Features',
+  },
+  {
     title: 'CLI',
     href: '/cli',
     description: 'Coming soon — until then, use the app workflow.',
