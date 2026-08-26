@@ -28,7 +28,7 @@ export const docsNavigation: NavItem[] = [
   {
     title: 'Collections',
     href: '/collections',
-    description: 'Organize yooo requests with nested folders and fast replayable history.',
+    description: 'Organize requests with nested folders and fast replayable history.',
     section: 'Features',
   },
   {
