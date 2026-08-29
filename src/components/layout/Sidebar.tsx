@@ -10,6 +10,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
     <nav aria-label="Documentation" className="space-y-7">
       {sections.map(({ section, items }) => (
         <div key={section}>
+        
           <p className="mb-2.5 px-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-soft">
             {section}
           </p>
