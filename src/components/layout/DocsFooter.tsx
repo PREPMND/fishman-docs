@@ -14,7 +14,7 @@ export function DocsFooter() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-body transition-colors hover:text-primary"
           >
-            <GitHubIcon className="size-3.5" />
+            <GitHubIcon className="size-3.5 ml-" />
             Open source
           </a>
         </p>
