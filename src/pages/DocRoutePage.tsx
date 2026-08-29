@@ -86,6 +86,13 @@ const docs: Record<string, DocDef> = {
     headings: contributingHeadings,
     Page: ContributingPage,
   },
+  environments: {
+    title: 'Fishman Environments',
+    description:
+      'Manage API variables and switch between local, staging, and production configurations in Fishman.',
+    headings: environmentsHeadings,
+    Page: EnvironmentsPage,
+  },
 }
 
 export function DocRoutePage() {
