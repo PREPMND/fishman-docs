@@ -95,6 +95,7 @@ const docs: Record<string, DocDef> = {
     headings: environmentsHeadings,
     Page: EnvironmentsPage,
   },
+  
   git: {
     title: 'Git Integration in Fishman',
     description:
