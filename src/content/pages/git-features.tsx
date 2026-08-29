@@ -24,7 +24,7 @@ export function GitPage() {
     <DocPage
       title="Git"
       description="Review changes, manage branches, sync with remotes, and handle merge conflicts without leaving Fishman."
-      icon={getDocIcon('/git')}
+      icon={<i className="bi bi-git" />}
     >
       <Heading id="overview">Git in Fishman</Heading>
 
