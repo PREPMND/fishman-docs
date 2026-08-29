@@ -3,6 +3,7 @@ import {
   BookOpen,
   Code2,
   FolderTree,
+  GitBranch,
   GitPullRequest,
   HardDriveDownload,
   History,
@@ -21,7 +22,7 @@ export const docIcons: Record<string, LucideIcon> = {
   '/api-reference': Code2,
   '/changelog': History,
   '/contributing': GitPullRequest,
-  '/git-feautres'
+  '/git-feautres':GitBranch
 }
 
 export function getDocIcon(href: string): LucideIcon {
