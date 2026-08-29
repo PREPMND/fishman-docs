@@ -62,7 +62,13 @@ export const docsNavigation: NavItem[] = [
       'Manage variables and switch between local, staging, and production API configurations.',
     section: 'Features',
   },
-  
+  {
+    title: 'Git',
+    href: '/git',
+    description:
+      'Manage changes, commits, branches, remote sync, and merge conflicts without leaving Fishman.',
+    section: 'Features',
+  },
 ]
 
 export const marketingLinks = [
