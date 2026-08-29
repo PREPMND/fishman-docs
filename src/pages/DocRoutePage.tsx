@@ -21,6 +21,7 @@ import { ChangelogPage, changelogHeadings } from '@/content/pages/changelog'
 import { ContributingPage, contributingHeadings } from '@/content/pages/contributing'
 import { NotFoundPage } from './NotFoundPage'
 import type { TocHeading } from '@/hooks/useActiveHeading'
+import { environmentsHeadings, EnvironmentsPage } from '@/content/pages/environments'
 
 type DocDef = {
   title: string
