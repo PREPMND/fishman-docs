@@ -27,11 +27,10 @@ export function GitPage() {
       icon={<i className="bi bi-git" />}
     >
       <Heading id="overview">Git in Fishman</Heading>
-
       <p>
         Fishman includes Git tools alongside your API workspace. You can review repository changes,
-        work with commits and branches, inspect history, and synchronize your local repository with
-        a remote.
+        work with branches, inspect commits and history, synchronize your local repository with a
+        remote, and handle merge conflicts without leaving the app.
       </p>
 
       <Callout tone="tip">
