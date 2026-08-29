@@ -22,6 +22,7 @@ import { ContributingPage, contributingHeadings } from '@/content/pages/contribu
 import { NotFoundPage } from './NotFoundPage'
 import type { TocHeading } from '@/hooks/useActiveHeading'
 import { environmentsHeadings, EnvironmentsPage } from '@/content/pages/environments'
+import { gitHeadings } from '@/content/pages/git-features'
 
 type DocDef = {
   title: string
@@ -93,6 +94,13 @@ const docs: Record<string, DocDef> = {
       'Manage API variables and switch between local, staging, and production configurations in Fishman.',
     headings: environmentsHeadings,
     Page: EnvironmentsPage,
+  },
+  git: {
+    title: 'Git Integration in Fishman',
+    description:
+      'Manage Git repositories inside Fishman with branches, changes, diffs, commits, history, remote sync, and merge conflict resolution.',
+    headings: gitHeadings,
+    Page: GitPage,
   },
 }
 
