@@ -55,7 +55,7 @@ export const docsNavigation: NavItem[] = [
     description: 'How to contribute to Fishman open source.',
     section: 'Project',
   },
-    environments: {
+  {
     title: 'Fishman Environments',
     description:
       'Manage API variables and switch between local, staging, and production configurations in Fishman.',
