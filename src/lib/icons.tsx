@@ -21,7 +21,7 @@ export const docIcons: Record<string, LucideIcon> = {
   '/api-reference': Code2,
   '/changelog': History,
   '/contributing': GitPullRequest,
-  '/git'
+  
 }
 
 export function getDocIcon(href: string): LucideIcon {
