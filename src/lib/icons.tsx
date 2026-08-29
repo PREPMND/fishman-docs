@@ -22,7 +22,7 @@ export const docIcons: Record<string, LucideIcon> = {
   '/api-reference': Code2,
   '/changelog': History,
   '/contributing': GitPullRequest,
-  '/git-featres':GitBranch
+  '/git-features':GitBranch
 }
 
 export function getDocIcon(href: string): LucideIcon {
