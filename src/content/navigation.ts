@@ -62,6 +62,7 @@ export const docsNavigation: NavItem[] = [
       'Manage variables and switch between local, staging, and production API configurations.',
     section: 'Features',
   },
+  
 ]
 
 export const marketingLinks = [
