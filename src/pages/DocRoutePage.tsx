@@ -22,7 +22,7 @@ import { ContributingPage, contributingHeadings } from '@/content/pages/contribu
 import { NotFoundPage } from './NotFoundPage'
 import type { TocHeading } from '@/hooks/useActiveHeading'
 import { environmentsHeadings, EnvironmentsPage } from '@/content/pages/environments'
-import { gitHeadings } from '@/content/pages/git-features'
+import { gitHeadings, GitPage } from '@/content/pages/git-features'
 
 type DocDef = {
   title: string
